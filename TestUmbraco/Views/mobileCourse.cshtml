@@ -1,0 +1,47 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = "mobileMaster.cshtml";
+}
+
+<div class="page-content">
+    <div style="background-color: lightblue;padding:4px" >
+        <div class="row text-center">
+            <div class="col-1">
+              <a href=""><h3><</h3></a>
+            </div>
+            <div class="col-11">
+              <h3>@Model.Value("PageBody")</h3>
+            </div>
+
+        </div>
+    </div>   
+    <div style="padding:4px" >
+        <div class="row text-center">
+            <div class="col">
+              <p>Roligare och Tryggare Om Alla Kan | Kurser och Båtar Godkända av Transportstyrelsen</p>
+            </div>
+
+        </div>
+    </div>   
+    <div style="background-color: lightblue;padding:4px" >
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-raised btn-sm btn-warning">Klassrum</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-raised  btn-sm btn-warning">Barn o Ugndom</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-raised btn-sm btn-warning">Båtpraktik</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-raised btn-sm btn-warning">Kalender</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-raised btn-sm btn-warning">Online</button>
+            </div>
+
+        </div>
+    </div> 
+</div>
+    

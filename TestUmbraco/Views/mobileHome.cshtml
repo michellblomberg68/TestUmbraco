@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "mobileMaster.cshtml";
+}
+
+
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col">
+          <p>@Model.Value("PageBody")</p>
+        </div>
+    </div>
+
+    
+    <div class="row mb-2" style="margin">
+        <div class="col">
+            <a href="/mobilehome/mobilefritid/" class="custom-card">
+                <div class="card text-center">
+                    <div class="card-head" style="background-color: lightblue;" >
+                       <h5 class="card-title">Fritids kurser</h5>
+                    </div>   
+                    
+                    <div class="card-body" style="background-color: whitesmoke;">
+                        <p class="card-text">Roligare och Tryggare Om Alla Kan | Kurser och Båtar Godkända av Transportstyrelsen</p>
+                    </div>
+                    
+                    <img class="card-img-bottom" src="~/Media/boat.jpg">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col">
+            <div class="card text-center">
+                <div class="card-head" style="background-color: lightblue;" >
+                   <h5 class="card-title">Fritids kurser</h5>
+                </div>                
+                <div class="card-body" style="background-color: whitesmoke;">
+                    <p class="card-text">Roligare och Tryggare Om Alla Kan | Kurser och Båtar Godkända av Transportstyrelsen</p>
+                </div>
+                
+                <img class="card-img-bottom" src="~/Media/boat.jpg" alt="Card image cap">
+            </div>
+        </div>
+    </div>    
+   
+</div>
+
+
+
+
