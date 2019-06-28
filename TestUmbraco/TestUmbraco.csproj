@@ -418,6 +418,8 @@
     <Content Include="css\mobileMaster.css" />
     <Content Include="css\umbraco-starterkit-style.css" />
     <Content Include="Global.asax" />
+    <Content Include="Media\boat.jpg" />
+    <Content Include="Media\calle.jpg" />
     <Content Include="Media\logga.jpg" />
     <Content Include="Media\nina.jpg" />
     <Content Include="scripts\mobileMaster.js" />

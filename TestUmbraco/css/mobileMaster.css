@@ -1,4 +1,43 @@
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+     padding-right: 0px; 
+     padding-left: 0px; 
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0px 25px 8px;
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 12px;
+    border-radius: 25px;
+    background-color: #ed7f00;
+    color: white;
+}
+
+.chiptxt {
+    text-align:left;
+    padding-top: 4px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 
 a.custom-card,
 a.custom-card:active
