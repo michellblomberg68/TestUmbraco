@@ -468,6 +468,7 @@
     <Content Include="Views\Products.cshtml" />
     <Content Include="Views\mobileHome.cshtml" />
     <Content Include="Views\mobileMaster.cshtml" />
+    <Content Include="Views\mobileCourse.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

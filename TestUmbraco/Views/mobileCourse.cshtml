@@ -1,30 +1,44 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
 @{
-	Layout = "mobileMaster.cshtml";
+    Layout = "mobileMaster.cshtml";
 }
 
-<div class="page-content">
-    <div style="background-color: lightblue;padding:4px" >
+<div class="container-fluid">
+
+    <div style="background-color: lightblue;padding:4px">
         <div class="row text-center">
             <div class="col-1">
-              <a href=""><h3><</h3></a>
-            </div>
-            <div class="col-11">
-              <h3>@Model.Value("PageBody")</h3>
-            </div>
+                <a class="btn-floating btn-sm btn-warning" href="~/mobilehome"><i class="fas fa-arrow-left"></i></a>
 
+            </div>
+            <div class="col-10">
+                <h3>@Model.Value("PageBody")</h3>
+            </div>
         </div>
-    </div>   
-    <div style="padding:4px" >
+    </div>
+
+    <div style="padding:4px">
         <div class="row text-center">
             <div class="col">
-              <p>Roligare och Tryggare Om Alla Kan | Kurser och Båtar Godkända av Transportstyrelsen</p>
+                <p>Roligare och Tryggare Om Alla Kan | Kurser och Båtar Godkända av Transportstyrelsen</p>
             </div>
+        </div>
+    </div>
+
+    <div style="background-color: lightblue;">
+        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-warning btn-sm">Klassrum</button>
+            <button type="button" class="btn btn-warning btn-sm">Barn o ungdom</button>
+
 
         </div>
-    </div>   
-    <div style="background-color: lightblue;padding:4px" >
-        <div class="row">
+        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-warning btn-sm">Båtpraktik</button>
+            <button type="button" class="btn btn-warning btn-sm">Kalender</button>
+            <button type="button" class="btn btn-warning btn-sm">Online</button>
+
+        </div>
+        @*<div class="row">
             <div class="col">
                 <button type="button" class="btn btn-raised btn-sm btn-warning">Klassrum</button>
             </div>
@@ -40,8 +54,9 @@
             <div class="col">
                 <button type="button" class="btn btn-raised btn-sm btn-warning">Online</button>
             </div>
+        </div>*@
+    </div>
 
-        </div>
-    </div> 
+
 </div>
-    
+
